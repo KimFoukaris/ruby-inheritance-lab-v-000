@@ -28,5 +28,6 @@ jim.learn(some_knowledge)
 kim = Student.new
 kim.first_name = "Kim"
 kim.last_name = "Foukaris"
+kim.learn(some_knowledge)
 
 puts "Kim just learned:  #{kim.knowledge.first}."
